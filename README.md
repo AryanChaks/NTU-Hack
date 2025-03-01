@@ -24,3 +24,60 @@ graph TD;
   E -->|Triggers| G[AI-Based Alerts];
   F --> H[Streamlit Monitoring Dashboard];
   G --> H;
+
+
+main (Production-Ready Code)
+Only fully tested and stable features go here
+No direct changes—only merge from develop
+Use GitHub Releases to tag stable versions
+
+
+feature/lstm (LSTM Model for Predictive Calibration)
+👨‍💻 Maintained by ML Engineers
+
+Contains all LSTM training, hyperparameter tuning, and model evaluation
+Files:
+src/lstm_training.py
+models/lstm_model.h5
+notebooks/LSTM_Experiments.ipynb
+
+
+feature/anomaly-detection (Autoencoder for Anomaly Detection)
+👨‍💻 Maintained by ML Engineers
+
+Implements Autoencoder & Isolation Forest models
+Files:
+src/anomaly_detection.py
+models/autoencoder.h5
+notebooks/Anomaly_Detection.ipynb
+
+
+feature/compliance-reports (NLP-Based Compliance Report Generation)
+👨‍💻 Maintained by AI/NLP Engineers
+
+Generates automated compliance reports using GPT-2
+Files:
+src/compliance_reports.py
+models/gpt2_compliance_model/
+notebooks/Compliance_Report_Generation.ipynb
+
+
+feature/dashboard (Streamlit Monitoring Dashboard)
+👨‍💻 Maintained by Web Developers
+
+Implements real-time monitoring via Streamlit
+Files:
+dashboard/app.py
+dashboard/templates/
+requirements.txt
+
+
+
+feature/alerts (Automated Alert System - Email & Slack)
+👨‍💻 Maintained by Backend Developers
+
+Implements email & Slack alerts for high-risk tools
+Files:
+src/alerts.py
+config/slack_webhook.json
+config/email_settings.json
