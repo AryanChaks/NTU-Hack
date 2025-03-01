@@ -1,0 +1,10 @@
+Tool_Description,Risk_Score,Compliance_Report
+Tachometer (non-contact),74.271614339269,"
+    Compliance Report for Tachometer (non-contact):
+    - Risk Score: 74.27/100
+    - Days Since Last Calibration: 0.6344892221180881
+    - Months Remaining Before Next Calibration: 0.3702651515151515
+    - Anomaly Detected: Yes
+
+    Based on this data, the compliance risk assessment indicates:
+     1.15. This risk may occur within 15 days of the last calibration event when the calibration may not be performed on any later measurement or because of an error in the measurement or calibration of the instrument. If the instrument is performing the calibration correctly, if the calibration is not properly performed on any further calibration, the calibration may result in an accident at the calibration location or the instrument may fail to calibrate. 2. The risk is greater if the instrument's operating control will not be"
